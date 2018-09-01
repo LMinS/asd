@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.web.MainActivity"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/naver"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Naver"
+        android:background="#49a224"
+        android:onClick="naver"
+       />
+
+    <Button
+        android:id="@+id/daum"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/naver"
+        android:layout_toRightOf="@+id/naver"
+        android:text="Daum"
+        android:background="#617AF6"
+        android:onClick="daum"/>
+
+    <Button
+        android:id="@+id/gms"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/naver"
+        android:layout_alignStart="@+id/naver"
+        android:layout_below="@+id/naver"
+        android:text="gms"
+        android:background="#04c2fb"
+        android:onClick="gms"/>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="google"
+        android:layout_below="@+id/naver"
+        android:layout_toRightOf="@+id/gms"
+        android:layout_toEndOf="@+id/gms"
+        android:background="#7b0099"
+        android:onClick="google"/>
+</RelativeLayout>

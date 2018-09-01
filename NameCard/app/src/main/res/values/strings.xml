@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NameCard</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="name">이민석</string>
+    <string name="tl">010-7195-1301</string>
+    <string name="email">geunde6@gmail.com</string>
+    <string name="page">http://developer.android.com</string>
+</resources>

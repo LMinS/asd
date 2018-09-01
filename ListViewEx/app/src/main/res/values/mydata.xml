@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asia">
+        <item>대한민국</item>
+        <item>중국</item>
+        <item>일본</item>
+        <item>베트남</item>
+        <item>라오스</item>
+        <item>캄보디아</item>
+        <item>태국</item>
+        <item>인도네시아</item>
+        <item>싱가포르</item>
+        <item>말레이시아</item>
+        <item>미얀마</item>
+        <item>필리핀</item>
+        <item>방글라데시</item>
+        <item>인도</item>
+        <item>파키스탄</item>
+        <item>아프가니스탄</item>
+        <item>몽골</item>
+        <item>네팔</item>
+        <item>부탄</item>
+        <item>카자흐스탄</item>
+    </string-array>
+</resources>
